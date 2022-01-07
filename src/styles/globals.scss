@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #f2f2f2;
+  --black: #121214;
+}
+
+html, body, input, textarea, select, button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+html {
+
+  font-size: 150%;
+  
+  @media (max-width: 1440px) {
+    font-size: 120%;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 100%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 87.75%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 81.25%;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 75%;
+  }
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

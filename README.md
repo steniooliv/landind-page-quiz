@@ -1,0 +1,1 @@
+## Template Next App with Typescript
