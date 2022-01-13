@@ -1,0 +1,154 @@
+.main {
+  max-width: 1360px;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.product-image {
+  flex: 1;
+
+  img {
+    width: 20rem;
+    margin: 0 1rem 1rem 0;
+  }
+
+}
+
+.product-info {
+  flex: 2;
+  white-space: pre-line;
+  
+  h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  p{
+    color: var(--white);
+    font-size: 0.8rem;
+    text-align: center;
+    overflow: auto;
+    max-height: 5rem;
+    padding: 0.5rem;
+  }
+ }
+
+.quiz {
+  width: 70vw;
+  min-height: 30vh;
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 720px) {
+    width: 85vw;
+  }
+}
+
+.question {  
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.aswer {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.button {
+  color: var(--black);
+  border-radius: 1rem;
+  background-color: var(--green);
+  padding: 0.5rem 4rem;
+  margin: 0.5rem 2.5rem;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 30px var(--green);
+}
+
+.progress {
+  position: relative;
+  height: 1rem;
+  width: 10rem;
+  border: 2px solid var(--green);
+  border-radius: 1rem;
+  
+  .color {
+    position: absolute;
+    background-color: var(--green);
+    width: 0rem;
+    height: 0.8rem;
+    border-radius: 1rem;
+    animation: progres 1.5s infinite linear;    
+  }
+}
+
+@keyframes progres{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 50%;
+  }
+  50%{
+      width: 75%;
+  }
+  75%{
+      width: 85%;
+  }
+  100%{
+      width: 100%;
+  }
+}
+
+.success {
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 1rem;
+    color: var(--black);
+    text-align: center;
+  }
+  
+  p{
+    color: var(--black);
+    font-size: 0.8rem;
+    text-align: center;
+    overflow: auto;
+    max-height: 5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
