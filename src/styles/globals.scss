@@ -8,6 +8,7 @@
 :root {
   --white: #f2f2f2;
   --black: #121214;
+  --black-light: #1a1a1a;
   --green: #06F256;
 }
 
@@ -48,7 +49,7 @@ html {
 
 body {
   color: var(--white);
-  background-color: var(--black);
+  background-color: var(--black-light);
 }
 
 button {
