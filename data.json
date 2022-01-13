@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": "123",
+      "name": "MÉTODO INOVADOR ELIMINA GORDURA INDESEJADA DA BARRIGA DE MANEIRA SIMPLES?",
+      "description": "Especialista cria um método totalmente inovador e eficaz para perda de peso. Ele lança uma luz totalmente nova sobre porque é fácil ganhar peso e tão difícil de perdê-lo, especialmente com dietas tradicionais extremamente restritivas e planos que são impossíveis de seguir. \nSeu método simples funciona na contra mão das dietas tradicionais para perda de peso. Totalmente ao contrário de programas extremamente restritivos, onde a pessoa às vezes passa por muitos sacrifícios. Agora ele decidiu começar a compartilhar essa solução e chocou o público com os resultados. \nVeja como essa estranha e inovadora estratégia de comer bem e emagrecer já ajudou mais de 60.000 pessoas! \nPara ver se pode funcionar para você, responda as questões abaixo:",
+      "image": "/assets/images/elimina_gordura.png",
+      "link": "",
+      "email": "",
+      "questions": [
+        {
+          "question": "Voce é:",
+          "answers": [
+            {
+              "answer": "Homem"
+            },
+            {
+              "answer": "Mulher"
+            }
+          ]
+        },
+        {
+          "question": "Você sente que precisa perder peso mas não sabe como fazer?",
+          "answers": [
+            {
+              "answer": "Sim"
+            },
+            {
+              "answer": "Não"
+            }
+          ]
+        },
+        {
+          "question": "Você acredita que é possível perder peso SOMENTE seguindo planos rígidos de dieta e fazendo muitos sacrifícios?",
+          "answers": [
+            {
+              "answer": "Sim"
+            },
+            {
+              "answer": "Não"
+            }
+          ]
+        },
+        {
+          "question": "Já experimentou dietas rígidas e lutou pra perder peso no passado e não teve resultados?",
+          "answers": [
+            {
+              "answer": "Sim"
+            },
+            {
+              "answer": "Não"
+            }
+          ]
+        }
+      ],
+      "success": {
+        "title": "Parabéns! \nAntes de mostrar essa estratégia para você, exigimos que cada pessoa concorde com as seguintes diretrizes:",
+        "description": " 1- Preste bastante atençao em todo o conteúdo, está tudo explicado da maneira mais clara e direta possível. \n 2- Use de maneira adequada. Essa poderosa estratégia secreta pode ajudar mulheres comuns a perder peso rapidamente e deve ser usado com responsabilidade. \n3- Esta apresentação está sendo disponibilizada SOMENTE por um tempo limitado e será REMOVIDA em breve devido a pressão da indústria de grandes dietas e perda de peso. Se você não quiser descobrir esses segredos do setor, \nFECHE ESTA JANELA IMEDIATAMENTE para liberar sua vaga para a próxima pessoa da fila. Se você concordar com todos os itens acima, clique no botão \"Eu concordo\" abaixo para prosseguir para a apresentação privada."
+      }
+    }
+  ]
+}
