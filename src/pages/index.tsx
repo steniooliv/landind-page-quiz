@@ -5,6 +5,7 @@ import { ProductList } from '../components/ProductList';
 import { Footer } from '../components/Footer';
 
 import styles from "../styles/home.module.scss";
+import { IProduct, ProductProps } from '../@types';
 
 const Home: NextPage = () => {
   return (
