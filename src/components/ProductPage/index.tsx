@@ -49,7 +49,7 @@ export function ProductPage(product: IProduct) {
         {question != totalQuestions
           ?
           <div className={styles.question}>
-            <p>{product.questions[question].question}</p>
+            <p>Pergunta {question + 1} - {product.questions[question].question}</p>
           </div>
           : null
         }

@@ -10,6 +10,7 @@
   --black: #121214;
   --black-light: #1a1a1a;
   --green: #06F256;
+  --yellow: #FFFE02;
 }
 
 html, body, input, textarea, select, button {
@@ -48,6 +49,8 @@ html {
 }
 
 body {
+  max-width: 1260px;
+  margin: 0 auto;
   color: var(--white);
   background-color: var(--black-light);
 }

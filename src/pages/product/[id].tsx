@@ -1,7 +1,7 @@
 import { NextRouter, useRouter } from "next/router";
 import Head from "next/head";
 
-import { IProduct, ProductProps } from "../../@types";
+import { ProductProps } from "../../@types";
 import { ProductPage } from "../../components/ProductPage";
 import { Footer } from "../../components/Footer";
 

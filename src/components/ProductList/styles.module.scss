@@ -1,5 +1,5 @@
 .list {
-  max-width: 940px;
+  width: 100%;
   margin: 0 auto;
   padding: 1rem;
 
@@ -10,8 +10,7 @@
     color: var(--black);
     background-color: var(--white);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
     margin-bottom: 1rem;
-
   }
 }
