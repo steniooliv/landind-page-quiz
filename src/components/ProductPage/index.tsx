@@ -30,13 +30,11 @@ export function ProductPage(product: IProduct) {
   return (
     <main className={styles.main}>
       <div className={styles.product}>
-        <div className={styles['product-image']}>
-          <img src={product.image} alt={product.name} />
-        </div>
-        <div className={styles['product-info']}>
-          <h2>{product.name}</h2>
-          <p>{product.description}</p>
-        </div>
+        <h2>{product.name}</h2>
+      </div>
+      <div className={styles['product-info']}>
+        <img src={product.image} alt={product.name} />
+        <p>{product.description}</p>
       </div>
       <div className={styles.quiz}>
         {loading == true
@@ -74,9 +72,9 @@ export function ProductPage(product: IProduct) {
             <p>
               {product.success.description}
             </p>
-              <button onClick={onClick} className={styles.button}>
-                EU CONCORDO!
-              </button>
+            <button onClick={onClick} className={styles.button}>
+              EU CONCORDO!
+            </button>
           </div>
           : null
         }
